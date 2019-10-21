@@ -9,23 +9,36 @@
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
-
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <style>
-          body{
-              background-color: #e9ebee;              
+          body{            
               font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
               font-size: 16px;
               margin: 0 auto;
-              max-width: 60%;    
-                     
+                 background-image: url('photo1.jpg'); 
+                     background-size: cover;
+                     color : white;
+          }
+          h1{
+              text-align: center;
+              color: white;
           }
           table{
+
               border-collapse:collapse;
-              width: 100%;
+              max-width: 60%;
+              margin: 0 auto;
           }
           tr,td{
             border: thick double grey;
             text-align: center;
+            
+          }
+          tr:hover {
+              color: grey;
+          }
+          header{
+            margin-top: 50px;
             
           }
         </style>
@@ -33,7 +46,10 @@
     </head>
     <body>       
         <header>
-        <table>
+        <h1 style ="text-align: center;"> Ingénieur d'études et développement</h1>
+       
+        </header> 
+         <table class="table table-dark">
             <tr>
                 <td>
                     BOURAJOINI El bakay
@@ -64,10 +80,8 @@
                     <td>
                     </td>
         </table>
-        </header> 
-        <h1 style ="text-align: center;"> Ingénieur d'études et développement</h1>
         <h1>Formations</h1>
-        <table>
+        <table class= "table table-dark">
             <tr>
                 <td>2019</td>
                 <td>
@@ -85,9 +99,9 @@
             </tr>
         </table>
 
-        <h1>Compétances </h1>
+        <h1>Compétences </h1>
         
-        <table>
+        <table class= "table table-dark" >
             <tr>  
 
                 <td>Développement</td>
@@ -118,7 +132,7 @@
 
         <h1>Expériences</h1>
 
-        <table>
+        <table class= "table table-dark">
 
             <tr>
 
@@ -144,11 +158,11 @@
 
         <h1>Centres d'intérêts</h1>
 
-        <table>
+        <table class= "table table-dark">
 
             <tr>
                 <td>Sport et loisirs</td>
-                <td>Box Thaĩlandaise, VTT, Jeux vidéos, Bénévolat </td>
+                <td>Boxe Thaĩlandaise, VTT, Jeux vidéos, Bénévolat </td>
             </tr>
 
             <tr>
@@ -162,5 +176,8 @@
             </tr>
         </table>
                 
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </body>
 </html>
